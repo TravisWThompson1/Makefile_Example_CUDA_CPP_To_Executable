@@ -5,8 +5,6 @@
 #include "include/cuda_kernel.cuh"
 
 
-void kernel(double *A, double *B, double *C, int arraySize);
-
 
 
 int main() {
@@ -24,6 +22,5 @@ int main() {
     // Print out result.
     std::cout << "C = " << C[0] << ", " << C[1] << ", " << C[2] << std::endl;
 
-    std::cout << TTT << std::endl;
     return 0;
 }
